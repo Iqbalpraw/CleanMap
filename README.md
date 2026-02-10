@@ -1,66 +1,107 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+CleanMap 🧺📍
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<img src="public/img/laundry/logo.webp" alt="CleanMap Logo" width="200">
+
+
+
+
+
+<b>Platform Pemetaan dan Manajemen Layanan Laundry Terpadu</b>
 </p>
 
-## About Laravel
+<p align="center">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Laravel-11.x-red%3Fstyle%3Dfor-the-badge%26logo%3Dlaravel" alt="Laravel">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/PHP-8.2%2B-777BB4%3Fstyle%3Dfor-the-badge%26logo%3Dphp" alt="PHP">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind-3.0-38B2AC%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css" alt="Tailwind">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/License-MIT-yellow%3Fstyle%3Dfor-the-badge" alt="License">
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+📖 Tentang CleanMap
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+CleanMap adalah solusi digital berbasis web yang dirancang untuk menjembatani pelanggan dengan penyedia jasa laundry. Menggunakan kekuatan Laravel, proyek ini menyediakan visualisasi peta untuk menemukan titik laundry terdekat serta memberikan akses penuh bagi Admin untuk mengelola ekosistem laundry secara efisien.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+🚀 Fitur Saat Ini
 
-## Learning Laravel
+📍 Pemetaan Interaktif: Integrasi koordinat geografis untuk menampilkan titik-titik lokasi laundry di peta secara real-time.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+🖼️ Manajemen Galeri: Sistem manajemen aset foto yang memungkinkan pengunggahan dokumentasi fasilitas dan hasil kerja laundry.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+🛡️ Otorisasi Admin: Sistem keamanan berbasis Middleware CheckRole yang saat ini dioptimalkan untuk akses kontrol penuh oleh Administrator.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+📊 Dashboard Statistik: Visualisasi data laundry dan pengguna untuk mempermudah monitoring pertumbuhan bisnis.
 
-## Laravel Sponsors
+🚧 Roadmap Pengembangan (Butuh Kontributor!)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Kami sedang aktif mengembangkan fitur-fitur berikut dan sangat terbuka bagi siapapun yang ingin berkontribusi:
 
-### Premium Partners
+[ ] Sistem Ulasan & Rating: Implementasi logika agar pelanggan bisa memberikan feedback pada setiap laundry.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+[ ] Multi-Role System: Ekspansi peran pengguna untuk mendukung akun 'Pemilik Laundry' dan 'Member' dengan dashboard terpisah.
 
-## Contributing
+[ ] Integrasi Notifikasi: Pengingat status cucian melalui email atau platform pesan singkat.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+🛠️ Persyaratan Sistem
 
-## Code of Conduct
+PHP >= 8.2
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Composer
 
-## Security Vulnerabilities
+Node.js & NPM
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Database: MySQL, PostgreSQL, atau SQLite.
 
-## License
+📦 Panduan Instalasi Cepat
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Clone & Masuk ke Direktori
+
+git clone [https://github.com/iqbalpraw/cleanmap.git](https://github.com/iqbalpraw/cleanmap.git)
+cd cleanmap
+
+
+Instalasi Dependensi
+
+composer install
+npm install
+
+
+Pengaturan Environment
+
+cp .env.example .env
+php artisan key:generate
+
+
+Jangan lupa atur koneksi database di file .env.
+
+Migrasi & Sinkronisasi
+
+php artisan migrate --seed
+npm run dev
+
+
+Jalankan Aplikasi
+
+php artisan serve
+
+
+🤝 Mari Berkontribusi!
+
+CleanMap adalah proyek Open Source. Jika Anda ingin memperbaiki bug, menambah fitur, atau sekadar memperbaiki dokumentasi, silakan:
+
+Lakukan Fork pada repositori ini.
+
+Buat branch fitur Anda (git checkout -b feature/nama-fitur).
+
+Lakukan Commit perubahan (git commit -m 'Menambahkan fitur XYZ').
+
+Push ke branch Anda (git push origin feature/nama-fitur).
+
+Buka Pull Request.
+
+📄 Lisensi
+
+Didistribusikan di bawah Lisensi MIT. Lihat file LICENSE untuk informasi lebih lanjut.
+
+<p align="center">
+Dikelola oleh <a href="https://www.google.com/search?q=https://github.com/iqbalpraw">Iqbal Prawira</a>
+</p>
